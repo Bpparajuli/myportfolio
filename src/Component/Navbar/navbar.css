@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+  position: sticky;
+  top: 0;
+}
+
+nav .title {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  background-color: brown;
+  color: white;
+}
+
+nav ul li a:hover {
+  background-color: brown;
+  color: white;
+}/*# sourceMappingURL=navbar.css.map */
